@@ -38,10 +38,10 @@ export const SidebarLink = ({ path, icon, label }: SidebarLinkProps): ReactEleme
                 ? label
                 : label.map((word, index) => {
                     return (
-                      <>
+                      <span key={index}>
                         {word}
                         { index + 1 !== label.length && <br key={index} />}
-                      </>
+                      </span>
                     );
                   }
                 )
