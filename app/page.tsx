@@ -1,8 +1,10 @@
 
-export default function Home() {
+const HomePage = () => {
   return (
     <main className="flex min-h-screen items-center justify-center dark:text-white">
-      <p>Text</p>
+      <h1 className="text-9xl font-bold gradient-text drop-shadow-lg">GPC Algorithms</h1>
     </main>
   )
 }
+
+export default HomePage;
